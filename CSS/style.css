@@ -110,3 +110,54 @@ header {
     width: 584px;
     height: 676px;
 }
+
+/* About ME */
+.about_me_section {
+    display: flex;
+    /* Use flexbox for easy centering */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    min-height: 100vh;
+    /* Ensure the container takes at least the full viewport height */
+}
+
+.about_aling {
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.about_me_contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.about_me_contacts p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.about_me_contacts h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+    margin: 0;
+}
