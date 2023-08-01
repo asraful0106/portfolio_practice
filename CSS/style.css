@@ -200,3 +200,54 @@ header {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Summary titel */
+.summary_title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
+.edu_exp {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.education{
+    width: 511px;
+    margin-bottom: 50px;
+}
+
+.educations_titel {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.education_titel {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.education_2_titel {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin: 0;
+}
+
+.education_description {
+    font-size: 16px;
+    font-weight: 400
+}
+.btn_center{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
