@@ -1,35 +1,44 @@
 /* For All */
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* Header Style */
-header{
+header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #FFF8F3;
+    padding-left: 190px;
+    padding-right: 190px;
 }
+
 .main-heading {
     font-size: 45px;
     font-weight: 800;
 }
-.primary-color{
+
+.primary-color {
     color: #FD6E0A;
 }
-.navigation{
+
+.navigation {
     display: flex;
     align-items: center;
 }
-.lists{
+
+.lists {
     list-style: none;
     display: flex;
 }
-.lists li{
+
+.lists li {
     font-size: 20px;
     color: #474747;
     padding-right: 51px;
     padding-left: 30px;
 }
-.primary_btn{
+
+.primary_btn {
     border: none;
     background-color: #FD6E0A;
     color: white;
@@ -38,4 +47,48 @@ header{
     font-size: 20px;
     height: 64px;
     padding: 18px 35px;
+}
+
+/* About Conteiner */
+.about_continer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 190px;
+    padding-right: 38px;
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+    background-size: auto, contain;
+    background-position-x: 100%, 2%;
+}
+.about {
+    width: 584px;
+    height: 290px;
+}
+
+.abot_intro {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin: 0;
+}
+
+.about_name {
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about_description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.image {
+    width: 584px;
+    height: 676px;
 }
