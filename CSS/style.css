@@ -201,7 +201,7 @@ header {
     font-weight: 400;
 }
 
-/* Summary titel */
+/* Summary section */
 .summary_title {
     font-size: 35px;
     text-align: center;
@@ -217,7 +217,7 @@ header {
     margin-right: 230px;
 }
 
-.education{
+.education {
     width: 511px;
     margin-bottom: 50px;
 }
@@ -244,10 +244,78 @@ header {
     font-size: 16px;
     font-weight: 400
 }
-.btn_center{
+
+.btn_center {
     display: flex;
     justify-content: center;
     align-self: center;
     margin-top: 50px;
     margin-bottom: 113px;
 }
+
+/* Footer Style */
+footer {
+    height: 780px;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.connect_titel {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.connect_description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    max-width: 562px;
+    ;
+}
+
+.connect_logo img {
+    margin-right: 25px;
+}
+
+.form_titel {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+form input {
+    display: block;
+    border: none;
+}
+
+input[type="text"] {
+    /* Your styles for all text input elements */
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+input[type="email"] {
+    /* Your styles for all text input elements */
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+#msg {
+    /* Your styles for all text input elements */
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+#msg::placeholder {
+    /* You can also use position properties */
+    position: relative;
+    bottom: 50px;
+  }
